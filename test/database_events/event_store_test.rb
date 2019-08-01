@@ -1,6 +1,7 @@
 require "minitest/autorun"
 require 'clockwork/database_events/event_store'
 require 'clockwork/database_events/event_collection'
+require 'openstruct'
 
 describe Clockwork::DatabaseEvents::EventStore do
 
